@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box
+}
+
+body{
+	background-color: #464f54;
+}
+
+.wrapper{
+	max-width: 1060px;
+	margin: 0 auto;
+	background-color: #FFF;
+    padding: 185px 115px 30px 130px;
+}
+.header-info,
+.header-info a{
+	font-family: proxima_nova, arial, sans-serif;
+	color: #b4b4b4;
+    font-size: 20px;
+    text-decoration: none;
+}
+.article-title{
+	margin: 0.57em 0 0;
+	font-size: 78px;
+	text-transform: uppercase;
+	font-family: futurapt, sans-serif;
+}
+.article-desc{
+	font-family: georgia, serif;
+	font-size: 30px;
+	line-height: 2em;
+	color: #8F8F8F
+}
+.header{
+	margin-bottom: 25px;
+}
+.article-content p{
+	font-size: 26px;
+	line-height: 1.5;
+}
+.article-content{
+	text-align: justify;
+}
